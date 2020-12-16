@@ -1,0 +1,3 @@
+include ':heelper'
+include ':app'
+rootProject.name = "HeelperExample"
