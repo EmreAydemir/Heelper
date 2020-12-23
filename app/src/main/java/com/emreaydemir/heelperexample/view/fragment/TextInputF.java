@@ -6,8 +6,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.emreaydemir.heelper.helper.textinputlayout.AddTextChanged;
-import com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout;
+import com.emreaydemir.heelper.helper.textinput.AddTextChanged;
+import com.emreaydemir.heelper.helper.textinput.MyTextInputLayout;
 import com.emreaydemir.heelper.util.InputUtil;
 import com.emreaydemir.heelperexample.R;
 import com.emreaydemir.heelperexample.databinding.FTextinputBinding;

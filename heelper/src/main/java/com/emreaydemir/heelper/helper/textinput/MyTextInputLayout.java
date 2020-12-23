@@ -1,4 +1,4 @@
-package com.emreaydemir.heelper.helper.textinputlayout;
+package com.emreaydemir.heelper.helper.textinput;
 
 import android.content.Context;
 import android.text.Editable;

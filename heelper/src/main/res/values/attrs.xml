@@ -9,7 +9,20 @@
         <attr name="mybtn_strokeWidth" format="integer" />
         <attr name="mybtn_strokeDashWidth" format="integer" />
         <attr name="mybtn_strokeDashGap" format="integer" />
-
         <attr name="mybtn_bgFactorRate" format="float" />
     </declare-styleable>
+
+    <declare-styleable name="MyEditText">
+        <attr name="myedt_backgroundColor" format="color" />
+        <attr name="myedt_radius" format="dimension" />
+        <attr name="myedt_strokeColor" format="color" />
+        <attr name="myedt_strokeWidth" format="integer" />
+        <attr name="myedt_strokeDashWidth" format="integer" />
+        <attr name="myedt_strokeDashGap" format="integer" />
+        <attr name="myedt_bgFactorRate" format="float" />
+    </declare-styleable>
+
+
+
+
 </resources>

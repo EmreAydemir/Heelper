@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainF_to_buttonF"
             app:destination="@id/buttonF" />
+        <action
+            android:id="@+id/action_mainF_to_edittextF"
+            app:destination="@id/edittextF" />
     </fragment>
     <fragment
         android:id="@+id/textinputF"
@@ -27,5 +30,10 @@
         tools:layout="@layout/f_button"
         android:name="com.emreaydemir.heelperexample.view.fragment.ButtonF"
         android:label="ButtonF" />
+    <fragment
+        android:id="@+id/edittextF"
+        tools:layout="@layout/f_edittext"
+        android:name="com.emreaydemir.heelperexample.view.fragment.EditTextF"
+        android:label="EdittextF" />
 
 </navigation>

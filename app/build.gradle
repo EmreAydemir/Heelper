@@ -70,9 +70,9 @@ dependencies {
 
     implementation "android.arch.lifecycle:extensions:$lifecycle_version"
 
-    implementation 'com.github.EmreAydemir:Heelper:0.1.7'
+   // implementation 'com.github.EmreAydemir:Heelper:master-SNAPSHOT'
 
-   // implementation project(path: ':heelper')
+    implementation project(path: ':heelper')
 
     // Dimension
     implementation 'com.intuit.sdp:sdp-android:1.0.6'

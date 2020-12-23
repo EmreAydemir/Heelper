@@ -23,6 +23,11 @@
             android:text="Button" />
 
 
+        <com.emreaydemir.heelper.helper.button.MyButtonBold
+            android:id="@+id/btn_edittextF"
+            style="@style/mybutton_center_margin"
+            android:text="Edittext" />
+
 
 
     </LinearLayout>

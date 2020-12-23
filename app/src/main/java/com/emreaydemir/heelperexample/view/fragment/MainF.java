@@ -49,5 +49,12 @@ public class MainF extends BaseFragment<BlankViewModel, FMainBinding> {
         });
 
 
+        dataBinding.btnEdittextF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                NavigateUtil.fragmentNavigate(getView(), R.id.action_mainF_to_edittextF);
+            }
+        });
+
     }
 }

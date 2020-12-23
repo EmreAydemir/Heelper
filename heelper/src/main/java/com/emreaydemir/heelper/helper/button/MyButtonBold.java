@@ -21,14 +21,5 @@ public class MyButtonBold extends MyButton {
         super(context, attrs);
         Typeface customFont = Typeface.createFromAsset(context.getAssets(), ConstantsButton.btnBoldPath);
         setTypeface(customFont);
-
     }
-
-
-
-
-
-
-
-
 }

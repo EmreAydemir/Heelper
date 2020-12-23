@@ -42,48 +42,67 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout
+        <com.emreaydemir.heelper.helper.textinput.MyTextInputLayout
             android:id="@+id/textinputlayout_username"
             style="@style/textinputlayout">
 
-            <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputEditText
-                style="@style/textinputedittext"
+            <com.emreaydemir.heelper.helper.textinput.MyTextInputEditText
+                style="@style/textinputedittext_singleLine"
                 android:hint="Username"
                 android:maxLength="16"
                 android:id="@+id/edt_username"/>
 
-        </com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout>
+        </com.emreaydemir.heelper.helper.textinput.MyTextInputLayout>
 
 
 
-        <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout
+        <com.emreaydemir.heelper.helper.textinput.MyTextInputLayout
             android:id="@+id/textinputlayout_password"
 
             style="@style/textinputlayout.password">
 
-            <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputEditText
-                style="@style/textinputedittext"
+            <com.emreaydemir.heelper.helper.textinput.MyTextInputEditText
+                style="@style/textinputedittext_singleLine"
                 android:hint="Password"
                 android:inputType="textPassword"
 
                 android:id="@+id/edt_password"/>
 
-        </com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout>
+        </com.emreaydemir.heelper.helper.textinput.MyTextInputLayout>
 
 
 
 
-        <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout
+        <com.emreaydemir.heelper.helper.textinput.MyTextInputLayout
             android:id="@+id/textinputlayout_email"
             style="@style/textinputlayout">
 
-            <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputEditText
-                style="@style/textinputedittext"
+            <com.emreaydemir.heelper.helper.textinput.MyTextInputEditText
+                style="@style/textinputedittext_singleLine"
                 android:inputType="textEmailAddress"
                 android:hint="Email"
                 android:id="@+id/edt_email"/>
 
-        </com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout>
+        </com.emreaydemir.heelper.helper.textinput.MyTextInputLayout>
+
+
+
+
+        <com.emreaydemir.heelper.helper.textinput.MyTextInputLayout
+            style="@style/textinputlayout">
+
+            <com.emreaydemir.heelper.helper.textinput.MyTextInputEditText
+                style="@style/textinputedittext_multiLine"
+
+                android:hint="Description"/>
+
+        </com.emreaydemir.heelper.helper.textinput.MyTextInputLayout>
+
+
+
+
+
+
 
 
     </LinearLayout>

@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- TextInputLayout-->
+    <color name="textinputlayout_endIconTint">@color/md_blue_grey_300</color>
+    <color name="textinputlayout_hintTextColor">@color/md_black_1000</color>
+
+    <!-- EditText-->
+    <color name="myedt_bgColor">#FAFAFA</color>
+    <color name="myedt_bgColor_error">@color/md_red_50</color>
+
     <!-- MyButton -->
     <color name="mybutton_textColor">#FFFFFF</color>
     <color name="mybutton_backgroundColor">#000000</color>
+
+
 
 
     <!-- Material Color -->

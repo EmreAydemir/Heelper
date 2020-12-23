@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
+    <!-- TextInputLayout-->
+    <dimen name="textinputlayout_marginTop">@dimen/_6sdp</dimen>
+    <dimen name="textinputlayout_marginBottom">@dimen/_2sdp</dimen>
+
+    <!-- TextInputEdittext-->
+    <dimen name="textinputedittext_paddingTop">@dimen/_16sdp</dimen>
+    <dimen name="textinputedittext_paddingBottom">@dimen/_16sdp</dimen>
+    <dimen name="textinputedittext_textSize">@dimen/_12ssp</dimen>
+
+
+    <!-- EditText -->
+    <dimen name="myedt_radius">@dimen/_12sdp</dimen>
+
     <!-- MyButton -->
     <dimen name="mybutton_marginLeft">@dimen/_12sdp</dimen>
     <dimen name="mybutton_marginRight">@dimen/_12sdp</dimen>

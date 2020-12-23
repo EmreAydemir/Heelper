@@ -5,6 +5,7 @@ import android.provider.SyncStateContract;
 
 import com.emreaydemir.heelper.Heelper;
 import com.emreaydemir.heelper.HeelperButton;
+import com.emreaydemir.heelper.HeelperEditText;
 
 public class MyApp extends Application {
 
@@ -20,9 +21,10 @@ public class MyApp extends Application {
         super.onCreate();
 
 
-        Heelper.init(true, false);
-        HeelperButton.setFonts(poppinsSemiBold);
+        Heelper.init(true, true);
+
         HeelperButton.setBtnFonts(poppinsRegular, poppinsBold, poppinsSemiBold);
+        HeelperEditText.setEdtFonts(poppinsRegular, poppinsBold, poppinsSemiBold);
         Heelper.setColors(R.color.earswan);
 
     }

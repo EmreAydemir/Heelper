@@ -1,4 +1,4 @@
-package com.emreaydemir.heelper.helper.textinputlayout;
+package com.emreaydemir.heelper.helper.textinput;
 
 
 import android.content.Context;
@@ -8,8 +8,7 @@ import android.util.AttributeSet;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.emreaydemir.heelper.constants.ConstantsButton;
-import com.emreaydemir.heelper.constants.ConstantsFonts;
+import com.emreaydemir.heelper.constants.ConstantsEditText;
 import com.google.android.material.textfield.TextInputEditText;
 
 public class MyTextInputEditText extends TextInputEditText {
@@ -29,7 +28,7 @@ public class MyTextInputEditText extends TextInputEditText {
     }
 
     private void init(){
-        Typeface customFont = Typeface.createFromAsset(getContext().getAssets(), ConstantsFonts.myTextInputEditTextFontPath);
+        Typeface customFont = Typeface.createFromAsset(getContext().getAssets(), ConstantsEditText.edtSemiBoldPath);
         setTypeface(customFont);
     }
 }

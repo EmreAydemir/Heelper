@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="app_mybutton.red.center" parent="mybutton.center.margin">
+    <style name="app_mybutton.red.center" parent="mybutton_center_margin">
         <item name="mybtn_backgroundColor">@color/md_red_900</item>
     </style>
 
-    <style name="app_mybutton.red.left" parent="mybutton.left.margin">
+    <style name="app_mybutton.red.left" parent="mybutton_left_margin">
         <item name="mybtn_backgroundColor">@color/md_red_900</item>
     </style>
 
-    <style name="app_mybutton.red.right" parent="mybutton.right.margin">
+    <style name="app_mybutton.red.right" parent="mybutton_right_margin">
         <item name="mybtn_backgroundColor">@color/md_red_900</item>
     </style>
 
