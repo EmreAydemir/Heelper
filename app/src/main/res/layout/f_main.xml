@@ -14,12 +14,12 @@
 
         <com.emreaydemir.heelper.helper.button.MyButtonBold
             android:id="@+id/btn_textInputF"
-            style="@style/mybutton.center.margin"
+            style="@style/mybutton_center_margin"
             android:text="Text Input"/>
 
         <com.emreaydemir.heelper.helper.button.MyButtonBold
             android:id="@+id/btn_buttonF"
-            style="@style/mybutton.center.margin"
+            style="@style/mybutton_center_margin"
             android:text="Button" />
 
 

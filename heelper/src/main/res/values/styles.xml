@@ -61,21 +61,21 @@
     </style>
 
 
-    <style name="mybutton.center.margin" parent="mybutton.center">
+    <style name="mybutton_center_margin" parent="mybutton.center">
         <item name="android:layout_marginTop">@dimen/mybutton_marginTop</item>
         <item name="android:layout_marginLeft">@dimen/mybutton_marginLeft</item>
         <item name="android:layout_marginRight">@dimen/mybutton_marginRight</item>
 
     </style>
 
-    <style name="mybutton.left.margin" parent="mybutton.left">
+    <style name="mybutton_left_margin" parent="mybutton.left">
         <item name="android:layout_marginTop">@dimen/mybutton_marginTop</item>
         <item name="android:layout_marginLeft">@dimen/mybutton_marginLeft</item>
         <item name="android:layout_marginRight">@dimen/mybutton_marginRight</item>
 
     </style>
 
-    <style name="mybutton.right.margin" parent="mybutton.right">
+    <style name="mybutton_right_margin" parent="mybutton.right">
         <item name="android:layout_marginTop">@dimen/mybutton_marginTop</item>
         <item name="android:layout_marginLeft">@dimen/mybutton_marginLeft</item>
         <item name="android:layout_marginRight">@dimen/mybutton_marginRight</item>
