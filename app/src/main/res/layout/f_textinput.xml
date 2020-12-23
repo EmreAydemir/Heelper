@@ -14,6 +14,7 @@
     </data>
 
     <LinearLayout
+        android:background="@color/white"
         android:gravity="center"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -43,7 +44,6 @@
 
         <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout
             android:id="@+id/textinputlayout_username"
-
             style="@style/textinputlayout">
 
             <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputEditText
@@ -92,7 +92,7 @@
         <com.emreaydemir.heelper.helper.button.MyButtonBold
             android:id="@+id/btn_textInputF"
             android:onClick="@{handler::onBtnCheckClick}"
-            style="@style/app_mybutton"
+            style="@style/app_mybutton.red.center"
             android:text="Check"/>
 
 

@@ -15,12 +15,19 @@ import com.emreaydemir.heelper.constants.ConstantsColor;
 
 public class MyButton extends AppCompatButton {
 
+
+
+
     private boolean isEnable = true;
     private float mRadius;
     private int mStrokeDashWidth, mStrokeDashGap;
     private int mStrokeColor = 0, mStrokeWidth, mBackgroundColor;
 
     private float mBgFactorRate = 1f;
+
+
+
+
 
 
     public MyButton(Context context, AttributeSet attrs) {

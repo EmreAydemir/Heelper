@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- MyButton -->
+    <dimen name="mybutton_marginLeft">@dimen/_12sdp</dimen>
+    <dimen name="mybutton_marginRight">@dimen/_12sdp</dimen>
+    <dimen name="mybutton_marginTop">@dimen/_12sdp</dimen>
+    <dimen name="mybutton_marginBottom">@dimen/_12sdp</dimen>
+    <dimen name="mybutton_height">@dimen/_42sdp</dimen>
+    <dimen name="mybutton_textSize">@dimen/_14ssp</dimen>
+    <dimen name="mybutton_radius">@dimen/_12sdp</dimen>
+    <dimen name="mybutton_paddingLeft">@dimen/_14sdp</dimen>
+    <dimen name="mybutton_paddingRight">@dimen/_14sdp</dimen>
 
 
 

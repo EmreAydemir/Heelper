@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
+    <!-- MyButton -->
+    <color name="mybutton_textColor">#FFFFFF</color>
+    <color name="mybutton_backgroundColor">#000000</color>
 
 
     <!-- Material Color -->

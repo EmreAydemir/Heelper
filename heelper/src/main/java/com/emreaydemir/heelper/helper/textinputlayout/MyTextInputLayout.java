@@ -26,7 +26,7 @@ public class MyTextInputLayout extends TextInputLayout {
         super(context, attrs, defStyleAttr);
     }
 
-    public static void error(addTextChanged addTextChanged,
+    public static void error(AddTextChanged addTextChanged,
                              Context context,
                              MyTextInputLayout layout,
                              MyTextInputEditText editText,

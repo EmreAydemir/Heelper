@@ -70,9 +70,15 @@ dependencies {
 
     implementation "android.arch.lifecycle:extensions:$lifecycle_version"
 
-   // implementation 'com.github.EmreAydemir:Heelper:0.1.5'
+   // implementation 'com.github.EmreAydemir:Heelper:0.1.6'
 
     implementation project(path: ':heelper')
+
+    // Dimension
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+
     implementation "androidx.core:core-ktx:+"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"

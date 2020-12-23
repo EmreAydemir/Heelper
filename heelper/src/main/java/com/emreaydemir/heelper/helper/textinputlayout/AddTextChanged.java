@@ -1,6 +1,6 @@
 package com.emreaydemir.heelper.helper.textinputlayout;
 
-public enum addTextChanged {
+public enum AddTextChanged {
 
     minLenght,
     empty,

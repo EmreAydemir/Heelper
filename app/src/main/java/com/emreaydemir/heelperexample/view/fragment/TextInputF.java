@@ -6,7 +6,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.emreaydemir.heelper.helper.textinputlayout.addTextChanged;
+import com.emreaydemir.heelper.helper.textinputlayout.AddTextChanged;
 import com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout;
 import com.emreaydemir.heelper.util.InputUtil;
 import com.emreaydemir.heelperexample.R;
@@ -49,7 +49,7 @@ public class TextInputF extends BaseFragment<BlankViewModel, FTextinputBinding> 
     public void onBtnCheckClick(View view) {
 
         if(edtControl()){
-            Toast.makeText(getContext(), "Giriş Başarılı!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Kontrol Başarılı!", Toast.LENGTH_SHORT).show();
         }
 
     }
@@ -61,33 +61,33 @@ public class TextInputF extends BaseFragment<BlankViewModel, FTextinputBinding> 
         // Username
         if (InputUtil.checkAllEditTexts(dataBinding.edtUsername)) {
             if (!InputUtil.matchMinLength(dataBinding.edtUsername, 6)) {
-                MyTextInputLayout.error(addTextChanged.minLenght, getContext(), dataBinding.textinputlayoutUsername, dataBinding.edtUsername, "Kullanıcı adı 6 haneden az olamaz!", 6);
+                MyTextInputLayout.error(AddTextChanged.minLenght, getContext(), dataBinding.textinputlayoutUsername, dataBinding.edtUsername, "Kullanıcı adı 6 haneden az olamaz!", 6);
                 return false;
             }
         } else {
-            MyTextInputLayout.error(addTextChanged.empty, getContext(), dataBinding.textinputlayoutUsername, dataBinding.edtUsername, "Kullanıcı adı boş olamaz!", 0);
+            MyTextInputLayout.error(AddTextChanged.empty, getContext(), dataBinding.textinputlayoutUsername, dataBinding.edtUsername, "Kullanıcı adı boş olamaz!", 0);
             return false;
         }
 
         // Password
         if (InputUtil.checkAllEditTexts(dataBinding.edtPassword)) {
             if (!InputUtil.matchMinLength(dataBinding.edtPassword, 6)) {
-                MyTextInputLayout.error(addTextChanged.minLenght, getContext(), dataBinding.textinputlayoutPassword, dataBinding.edtPassword, "Şifre 6 haneden az olamaz!", 6);
+                MyTextInputLayout.error(AddTextChanged.minLenght, getContext(), dataBinding.textinputlayoutPassword, dataBinding.edtPassword, "Şifre 6 haneden az olamaz!", 6);
                 return false;
             }
         } else {
-            MyTextInputLayout.error(addTextChanged.empty, getContext(), dataBinding.textinputlayoutPassword, dataBinding.edtPassword, "Şifre boş olamaz!", 0);
+            MyTextInputLayout.error(AddTextChanged.empty, getContext(), dataBinding.textinputlayoutPassword, dataBinding.edtPassword, "Şifre boş olamaz!", 0);
             return false;
         }
 
         // Email
         if (InputUtil.checkAllEditTexts(dataBinding.edtEmail)) {
             if (!InputUtil.isValidEmail(dataBinding.edtEmail.getText().toString())) {
-                MyTextInputLayout.error(addTextChanged.validEmail, getContext(), dataBinding.textinputlayoutEmail, dataBinding.edtEmail, "Lütfen e-posta adresinizi doğru biçimde girin!", 0);
+                MyTextInputLayout.error(AddTextChanged.validEmail, getContext(), dataBinding.textinputlayoutEmail, dataBinding.edtEmail, "Lütfen e-posta adresinizi doğru biçimde girin!", 0);
                 return false;
             }
         } else {
-            MyTextInputLayout.error(addTextChanged.empty, getContext(), dataBinding.textinputlayoutEmail, dataBinding.edtEmail, "Email boş olamaz!", 0);
+            MyTextInputLayout.error(AddTextChanged.empty, getContext(), dataBinding.textinputlayoutEmail, dataBinding.edtEmail, "Email boş olamaz!", 0);
             return false;
         }
 

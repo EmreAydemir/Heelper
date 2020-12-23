@@ -4,12 +4,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_12sdp"
         android:orientation="vertical">
 
 
+        <com.emreaydemir.heelper.helper.button.MyButtonBold
+            style="@style/app_mybutton.red.center"
+            android:text="Button" />
 
 
+        <com.emreaydemir.heelper.helper.button.MyButtonBold
+            style="@style/app_mybutton.red.left"
+            android:text="Button" />
 
+        <com.emreaydemir.heelper.helper.button.MyButtonBold
+            style="@style/app_mybutton.red.right"
+            android:text="Button" />
 
 
 

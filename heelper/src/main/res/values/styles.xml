@@ -38,11 +38,47 @@
 
     <style name="mybutton">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">@dimen/_14ssp</item>
-        <item name="android:textColor">@color/md_white_1000</item>
-        <item name="mybtn_radius">@dimen/_12sdp</item>
-        <item name="mybtn_backgroundColor">@color/md_black_1000</item>
+        <item name="android:layout_height">@dimen/mybutton_height</item>
+        <item name="android:textSize">@dimen/mybutton_textSize</item>
+        <item name="android:textColor">@color/mybutton_textColor</item>
+        <item name="mybtn_radius">@dimen/mybutton_radius</item>
+        <item name="mybtn_backgroundColor">@color/mybutton_backgroundColor</item>
+        <item name="android:paddingLeft">@dimen/mybutton_paddingLeft</item>
+        <item name="android:paddingRight">@dimen/mybutton_paddingRight</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="mybutton.center" parent="mybutton">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="mybutton.left" parent="mybutton">
+        <item name="android:gravity">left|center</item>
+    </style>
+
+    <style name="mybutton.right" parent="mybutton">
+        <item name="android:gravity">right|center</item>
+    </style>
+
+
+    <style name="mybutton.center.margin" parent="mybutton.center">
+        <item name="android:layout_marginTop">@dimen/mybutton_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/mybutton_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/mybutton_marginRight</item>
+
+    </style>
+
+    <style name="mybutton.left.margin" parent="mybutton.left">
+        <item name="android:layout_marginTop">@dimen/mybutton_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/mybutton_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/mybutton_marginRight</item>
+
+    </style>
+
+    <style name="mybutton.right.margin" parent="mybutton.right">
+        <item name="android:layout_marginTop">@dimen/mybutton_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/mybutton_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/mybutton_marginRight</item>
 
     </style>
 
