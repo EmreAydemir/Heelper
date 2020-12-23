@@ -1,4 +1,4 @@
-package com.emreaydemir.heelper.Util;
+package com.emreaydemir.heelper.util;
 
 import android.view.Gravity;
 import android.view.View;

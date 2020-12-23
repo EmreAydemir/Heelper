@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="MyButton">
+        <attr name="mybtn_backgroundColor" format="color" />
+        <attr name="mybtn_radius" format="dimension" />
+        <attr name="mybtn_strokeColor" format="color" />
+        <attr name="mybtn_strokeWidth" format="integer" />
+        <attr name="mybtn_strokeDashWidth" format="integer" />
+        <attr name="mybtn_strokeDashGap" format="integer" />
+
+        <attr name="mybtn_bgFactorRate" format="float" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="app_mybutton" parent="mybutton">
+        <item name="mybtn_backgroundColor">@color/earswan</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <data>
+
+        <variable
+            name="handler"
+            type="com.emreaydemir.heelperexample.view.callback.IDetailF" />
+
+
+    </data>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="36dp"
+            android:textSize="20sp"
+            android:textColor="@color/md_black_1000"
+            tools:text="DetailF"/>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout
+            android:id="@+id/textinputlayout_username"
+
+            style="@style/textinputlayout">
+
+            <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputEditText
+                style="@style/textinputedittext"
+                android:hint="Username"
+                android:maxLength="16"
+                android:id="@+id/edt_username"/>
+
+        </com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout>
+
+
+
+        <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout
+            android:id="@+id/textinputlayout_password"
+
+            style="@style/textinputlayout.password">
+
+            <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputEditText
+                style="@style/textinputedittext"
+                android:hint="Password"
+                android:inputType="textPassword"
+
+                android:id="@+id/edt_password"/>
+
+        </com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout>
+
+
+
+
+        <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout
+            android:id="@+id/textinputlayout_email"
+            style="@style/textinputlayout">
+
+            <com.emreaydemir.heelper.helper.textinputlayout.MyTextInputEditText
+                style="@style/textinputedittext"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:id="@+id/edt_email"/>
+
+        </com.emreaydemir.heelper.helper.textinputlayout.MyTextInputLayout>
+
+
+    </LinearLayout>
+
+
+        <com.emreaydemir.heelper.helper.button.MyButtonBold
+            android:id="@+id/btn_textInputF"
+            android:onClick="@{handler::onBtnCheckClick}"
+            style="@style/app_mybutton"
+            android:text="Check"/>
+
+
+
+
+    </LinearLayout>
+</layout>

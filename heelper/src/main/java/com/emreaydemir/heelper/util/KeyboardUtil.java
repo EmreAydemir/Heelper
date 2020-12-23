@@ -1,4 +1,4 @@
-package com.emreaydemir.heelper.Util;
+package com.emreaydemir.heelper.util;
 
 import android.app.Activity;
 import android.content.Context;

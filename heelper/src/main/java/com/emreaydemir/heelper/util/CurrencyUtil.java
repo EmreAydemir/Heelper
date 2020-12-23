@@ -1,4 +1,4 @@
-package com.emreaydemir.heelper.Util;
+package com.emreaydemir.heelper.util;
 
 import java.text.NumberFormat;
 import java.util.Locale;

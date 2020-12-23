@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <com.emreaydemir.heelper.helper.button.MyButtonBold
+            android:id="@+id/btn_textInputF"
+            style="@style/app_mybutton"
+            android:text="Text Input"/>
+
+        <com.emreaydemir.heelper.helper.button.MyButtonBold
+            android:id="@+id/btn_buttonF"
+            style="@style/app_mybutton"
+             android:text="Button"/>
+
+
+
+    </LinearLayout>
+</layout>
