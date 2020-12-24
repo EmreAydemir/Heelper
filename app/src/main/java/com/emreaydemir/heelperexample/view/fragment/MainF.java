@@ -56,5 +56,8 @@ public class MainF extends BaseFragment<BlankViewModel, FMainBinding> {
             }
         });
 
+
+        dataBinding.btnTextviewF.setOnClickListener(v -> NavigateUtil.fragmentNavigate(getView(), R.id.action_mainF_to_textViewF));
+
     }
 }

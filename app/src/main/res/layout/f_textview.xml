@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+        android:paddingLeft="@dimen/_12sdp"
+        android:paddingRight="@dimen/_12sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FAFAFA"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:id="@+id/txt_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deneme"
+            android:gravity="center"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/_12ssp"/>
+
+
+
+        <com.emreaydemir.heelper.helper.textview.MyTextViewRegular
+            android:layout_marginTop="@dimen/_12sdp"
+            android:id="@+id/txt_earswanlink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deneme"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/_10ssp"/>
+
+
+        <com.emreaydemir.heelper.helper.textview.MyTextViewRegular
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regular"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/_12ssp"/>
+
+
+
+        <com.emreaydemir.heelper.helper.textview.MyTextViewSemiBold
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SemiBold"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/_12ssp"/>
+
+
+        <com.emreaydemir.heelper.helper.textview.MyTextViewBold
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bold"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/_12ssp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</layout>

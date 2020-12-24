@@ -13,7 +13,19 @@
 
 
     <!-- EditText -->
+    <dimen name="myedt_textSize">@dimen/_12ssp</dimen>
+
     <dimen name="myedt_radius">@dimen/_12sdp</dimen>
+
+    <dimen name="myedt_marginTop">@dimen/_12sdp</dimen>
+    <dimen name="myedt_marginLeft">@dimen/_12sdp</dimen>
+    <dimen name="myedt_marginRight">@dimen/_12sdp</dimen>
+
+    <dimen name="myedt_paddingLeft">@dimen/_14sdp</dimen>
+    <dimen name="myedt_paddingTop">@dimen/_12sdp</dimen>
+    <dimen name="myedt_paddingBottom">@dimen/_12sdp</dimen>
+    <dimen name="myedt_paddingRight">@dimen/_12sdp</dimen>
+
 
     <!-- MyButton -->
     <dimen name="mybutton_marginLeft">@dimen/_12sdp</dimen>

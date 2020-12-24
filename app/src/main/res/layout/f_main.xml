@@ -26,7 +26,15 @@
         <com.emreaydemir.heelper.helper.button.MyButtonBold
             android:id="@+id/btn_edittextF"
             style="@style/mybutton_center_margin"
-            android:text="Edittext" />
+            android:text="EditText" />
+
+
+        <com.emreaydemir.heelper.helper.button.MyButtonBold
+            android:id="@+id/btn_textviewF"
+            style="@style/mybutton_center_margin"
+            android:text="TextView" />
+
+
 
 
 

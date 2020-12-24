@@ -11,16 +11,8 @@
 
 
         <com.emreaydemir.heelper.helper.edittext.MyEditTextRegular
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_12sdp"
-            android:hint="Description"
-            android:padding="@dimen/_12sdp"
-            app:myedt_radius="@dimen/_12sdp"
-            android:textSize="@dimen/_12ssp"
-            android:textColor="@color/black"
-            android:layout_marginLeft="@dimen/_12sdp"
-            android:layout_marginRight="@dimen/_12sdp"/>
+            style="@style/myedittext"
+            android:hint="Description" />
 
 
 

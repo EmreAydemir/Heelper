@@ -19,21 +19,33 @@
         <action
             android:id="@+id/action_mainF_to_edittextF"
             app:destination="@id/edittextF" />
+        <action
+            android:id="@+id/action_mainF_to_textViewF"
+            app:destination="@id/textViewF" />
     </fragment>
+
     <fragment
         android:id="@+id/textinputF"
         tools:layout="@layout/f_textinput"
         android:name="com.emreaydemir.heelperexample.view.fragment.TextInputF"
         android:label="TextInputF" />
+
     <fragment
         android:id="@+id/buttonF"
         tools:layout="@layout/f_button"
         android:name="com.emreaydemir.heelperexample.view.fragment.ButtonF"
         android:label="ButtonF" />
+
     <fragment
         android:id="@+id/edittextF"
         tools:layout="@layout/f_edittext"
         android:name="com.emreaydemir.heelperexample.view.fragment.EditTextF"
         android:label="EdittextF" />
+
+    <fragment
+        android:id="@+id/textViewF"
+        tools:layout="@layout/f_textview"
+        android:name="com.emreaydemir.heelperexample.view.fragment.TextViewF"
+        android:label="TextViewF" />
 
 </navigation>

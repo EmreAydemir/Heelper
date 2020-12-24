@@ -95,6 +95,27 @@
     </style>
 
 
+    <!-- MyEditText -->
+
+
+    <style name="myedittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/myedt_textSize</item>
+        <item name="android:textColor">@color/md_black_1000</item>
+
+        <item name="android:layout_marginTop">@dimen/myedt_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/myedt_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/myedt_marginRight</item>
+
+        <item name="myedt_radius">@dimen/myedt_radius</item>
+
+        <item name="android:paddingLeft">@dimen/myedt_paddingLeft</item>
+        <item name="android:paddingTop">@dimen/myedt_paddingTop</item>
+        <item name="android:paddingBottom">@dimen/myedt_paddingBottom</item>
+        <item name="android:paddingRight">@dimen/myedt_paddingRight</item>
+    </style>
+
 
 
 
