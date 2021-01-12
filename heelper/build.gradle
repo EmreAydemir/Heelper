@@ -24,8 +24,10 @@ android {
     }
 
     buildTypes {
+       
         release {
             minifyEnabled false
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -63,6 +65,10 @@ dependencies {
     // Kotlin
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+
+    // Remote Debugger
+    implementation 'com.github.zerobranch:android-remote-debugger:1.0.1'
 }
 repositories {
     mavenCentral()

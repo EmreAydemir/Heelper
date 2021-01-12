@@ -15,7 +15,6 @@ public class MyApp extends Application {
     String poppinsBold = "fonts/Gilroy-Bold.ttf";
 
 
-
     @Override
     public void onCreate() {
 
@@ -30,6 +29,11 @@ public class MyApp extends Application {
         HeelperEditText.setEdtFonts(poppinsRegular, poppinsBold, poppinsSemiBold);
         HeelperTextView.setTxtFonts(poppinsRegular, poppinsBold, poppinsSemiBold);
         Heelper.setColors(R.color.earswan);
+
+        Heelper.androidRemoteDebugger(this, true, 8080);
+        Heelper.initSharedPref(getApplicationContext());
+
+        //    AndroidRemoteDebugger.init(this);
 
     }
 

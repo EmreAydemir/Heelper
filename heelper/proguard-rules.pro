@@ -12,6 +12,9 @@
 #   public *;
 #}
 
+-keep class com.zerobranch.androidremotedebugger.source.models.** { *; }
+-keep class com.zerobranch.androidremotedebugger.source.local.LogLevel
+
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
 #-keepattributes SourceFile,LineNumberTable

@@ -5,9 +5,11 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
+import com.emreaydemir.heelper.helper.SharedPref;
 import com.emreaydemir.heelper.util.NavigateUtil;
 import com.emreaydemir.heelperexample.R;
 import com.emreaydemir.heelperexample.databinding.FMainBinding;
+import com.emreaydemir.heelperexample.helper.ConstSharedPref;
 import com.emreaydemir.heelperexample.view.base.BaseFragment;
 import com.emreaydemir.heelperexample.viewmodel.BlankViewModel;
 
@@ -30,6 +32,8 @@ public class MainF extends BaseFragment<BlankViewModel, FMainBinding> {
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        SharedPref.write(ConstSharedPref.getUsername(), "Emre");
 
 
         dataBinding.btnTextInputF.setOnClickListener(new View.OnClickListener() {
@@ -58,6 +62,7 @@ public class MainF extends BaseFragment<BlankViewModel, FMainBinding> {
 
 
         dataBinding.btnTextviewF.setOnClickListener(v -> NavigateUtil.fragmentNavigate(getView(), R.id.action_mainF_to_textViewF));
+
 
     }
 }

@@ -22,6 +22,7 @@
         <action
             android:id="@+id/action_mainF_to_textViewF"
             app:destination="@id/textViewF" />
+
     </fragment>
 
     <fragment
@@ -42,10 +43,14 @@
         android:name="com.emreaydemir.heelperexample.view.fragment.EditTextF"
         android:label="EdittextF" />
 
+    
+    
     <fragment
         android:id="@+id/textViewF"
         tools:layout="@layout/f_textview"
         android:name="com.emreaydemir.heelperexample.view.fragment.TextViewF"
         android:label="TextViewF" />
+
+
 
 </navigation>
